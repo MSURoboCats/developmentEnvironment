@@ -1,0 +1,6 @@
+[submodule "robotCode"]
+	path = robotCode
+	url = https://github.com/MSURoboCats/robotCode.git
+[submodule "sil"]
+	path = sil
+	url = https://github.com/MSURoboCats/sil.git
