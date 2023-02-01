@@ -1,0 +1,14 @@
+version: "1.0"
+networks:
+  default:
+    name: "ros-internal"
+    driver: bridge
+services:
+  sil:
+    build: 
+      dockerfile: ./environments/sil.Dockerfile
+    tty: true
+    volumes:
+      - ./robotCode:/development/robotCode
+      - ./sil:/development/sil
+      - \\wsl$$\Ubuntu-20.04\mnt\wslg:/tmp
