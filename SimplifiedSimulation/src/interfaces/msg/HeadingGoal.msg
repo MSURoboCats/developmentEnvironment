@@ -1,0 +1,2 @@
+geometry_msgs/Quaternion orientation
+float64 max_power 

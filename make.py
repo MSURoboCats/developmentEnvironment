@@ -38,6 +38,7 @@ class main():
 
     def _start(self):
         os.system("docker compose start")
+        os.system("docker exec -ti developmentenvironment-sil-1 /bin/bash")
 
     def _stop(self):
         os.system("docker compose stop")

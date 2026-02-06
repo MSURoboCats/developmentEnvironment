@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>the_sub</name>
+  <version>0.0.0</version>
+  <description>For the whole sub</description>
+  <maintainer email="dhjensen02@gmail.com">robocats</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>python3-opencv</depend>
+  <depend>pygame</depend>
+  <depend>pyserial</depend>
+  <depend>sys</depend>
+  <depend>os</depend>  
+  <depend>numpy</depend>
+  <depend>quaternion</depend>
+  <depend>yaml</depend>
+  <depend>ultralytics</depend>
+  <depend>tkinter</depend>
+  <depend>PIL</depend>
+  <depend>multiprocessing</depend>
+  <depend>sshkeyboard</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

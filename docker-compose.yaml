@@ -11,4 +11,6 @@ services:
     volumes:
       - ./robotCode:/development/robotCode
       - ./sil:/development/sil
-      - \\wsl$$\Ubuntu-20.04\mnt\wslg:/tmp
+      - \\wsl$$\Ubuntu-20.04\mnt\wslg
+    ports:
+      - "8080:8080"
